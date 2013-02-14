@@ -1,0 +1,8 @@
+M = dlmread('bandPassFilter.txt', '\t');
+M';
+plotyy(log(ans(1,:)), ans(2,:), log(ans(1,:)), ans(3,:));
+grid();
+title('Band Reject - Magnitude', 'FontWeight','bold');
+xlabel('frequency (Hz)');
+ylabel(1)('uashub');
+ylabel(2)
